@@ -1,7 +1,11 @@
-package com.example.androidpluralize
+package com.kotlinpluralize
 
-import com.example.androidpluralize.rules.*
-import com.example.androidpluralize.utils.PluralizeUtils
+import com.kotlinpluralize.rules.IrregularRules
+import com.kotlinpluralize.rules.PluralRules
+import com.kotlinpluralize.rules.SingularRules
+import com.kotlinpluralize.rules.UncountableRules
+import com.kotlinpluralize.utils.PluralizeUtils
+
 
 object Pluralize {
     private val pluralRules = mutableListOf<Pair<Regex, String>>()

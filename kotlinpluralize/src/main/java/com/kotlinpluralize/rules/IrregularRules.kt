@@ -1,4 +1,4 @@
-package com.example.androidpluralize.rules
+package com.kotlinpluralize.rules
 
 object IrregularRules {
     val data = listOf(

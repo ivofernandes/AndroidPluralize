@@ -10,6 +10,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.androidpluralize.ui.theme.AndroidPluralizeTheme
+import com.kotlinpluralize.Pluralize
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

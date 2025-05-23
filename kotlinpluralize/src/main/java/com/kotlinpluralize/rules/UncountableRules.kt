@@ -1,4 +1,4 @@
-package com.example.androidpluralize.rules
+package com.kotlinpluralize.rules
 
 object UncountableRules {
     val data = listOf(

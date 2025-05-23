@@ -1,4 +1,4 @@
-package com.example.androidpluralize.utils
+package com.kotlinpluralize.utils
 
 object PluralizeUtils {
 
